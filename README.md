@@ -16,10 +16,10 @@ python 2.7+
 chainer 2.0.0a1  
 
 ## Usage
-First task: normal classification task (acc_tr is acuuracy of learning data, acc_te is accuracy of test data)
+First task: normal classification task (acc_tr is acuuracy of learning data, acc_te is accuracy of test data)  
 `$python train1_ewc_cnn.py`  
 
-Second task: a task of classifying learning data and test data,using fliped image. transfer learning from the first task. (Acc_tr is acuuracy of learning data, acc_te is accuracy of test data, acc_an_t is accuraxy of test data of the first task)
+Second task: a task of classifying learning data and test data,using fliped image. transfer learning from the first task. (Acc_tr is acuuracy of learning data, acc_te is accuracy of test data, acc_an_t is accuraxy of test data of the first task)  
 `$python train2_ewc_cnn.py`  
 
 Third task: Learn the second task using ewc_loss.  
